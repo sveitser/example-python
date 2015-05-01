@@ -4,4 +4,4 @@ machine:
 
 test:
     override:
-        - coverage run
+        - coverage run `which nosetests`
